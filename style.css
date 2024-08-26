@@ -1,0 +1,40 @@
+body {
+    background-color: #D6E2F0;
+    font-family: "Outfit", serif;
+    overflow: hidden;
+}
+
+.qrCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    border-radius: 20px;
+}
+
+.backCard {
+    background-color: white;
+    width: 375px;
+    padding: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.backCard>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.backCard>p {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
